@@ -7,10 +7,15 @@ a {
 body {
   font-family: 'Lora', serif;
   margin: 0 auto;
+  font-size: 1.5rem;
 }
-h1,
+main {
+  padding: 0 3rem;
+}
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
 }
 h3 {
   font-family: 'Raleway', sans-serif;
