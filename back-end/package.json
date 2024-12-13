@@ -10,8 +10,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.1",
-    "mongoose": "^8.8.3"
+    "express": "^4.21.2",
+    "mongoose": "^8.8.4",
+    "nodemon": "^3.1.7",
+    "server": "^1.0.41"
   },
   "devDependencies": {
     "prettier": "^3.4.1",
