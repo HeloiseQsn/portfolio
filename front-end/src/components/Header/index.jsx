@@ -15,6 +15,7 @@ function Header() {
         <ul>
           <NavLink to="/contact">Contact</NavLink>
           <li>Mes projets</li>
+          <li>Qui suis-je ?</li>
           <li>Mes expériences</li>
         </ul>
       </nav>
