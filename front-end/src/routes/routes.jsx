@@ -2,9 +2,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import React from 'react'
 import Layout from '../components/Layout'
 import Home from '../pages/home'
-import Project from '../pages/project'
 import Contact from '../pages/contact'
 import Error from '../pages/error'
+import Login from '../pages/login'
 
 function RoutesPortfolio() {
   return (
@@ -13,8 +13,8 @@ function RoutesPortfolio() {
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/project/:id" element={<Project />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/login" element={<Login />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </Layout>
